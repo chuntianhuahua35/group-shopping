@@ -1,0 +1,28 @@
+.back-button-profiles{
+    top:2%;
+    left: 1%;
+    display: flex;
+    position: absolute;
+}
+
+.title-layout {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.profiles-post-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profiles-post {
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.profiles-wishlist {
+    margin-top: 3%;
+    width: 40%;
+    margin-right: 5%;
+}

@@ -1,0 +1,26 @@
+.post {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 3%;
+    margin-top: 1%;
+}
+
+.post:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;;
+    padding: 3%;
+    margin-top: 1%;
+}
+
+.post-title {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.post-summary {
+    display: inline-block;
+}
+
+.post-time {
+    margin-top: 2%;
+    display: flex;
+    justify-content: right;
+}

@@ -1,0 +1,38 @@
+.card-container {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10%;
+}
+
+.tags-button {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    border-radius: 12px;
+}
+
+.tags-button-selected {
+    color: black;
+    border: 2px solid #008CBA;
+    background-color: #59c3e6;
+    border-radius: 12px;
+}
+
+.tags-button:hover {
+    background-color: #59c3e6;
+    color: white;
+    border-radius: 12px;
+}
+
+.tags-button-selected:hover {
+    background-color: #59c3e6;
+    color: white;
+    border-radius: 12px;
+}
+
+.tags-title {
+    text-align: center;
+    margin-top: 5%;
+}

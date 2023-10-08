@@ -1,0 +1,52 @@
+.login-box {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 50%;
+    margin-top: 24%;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.login-header {
+    margin-left: 5%;
+    padding-top: 1%;
+}
+
+.login-des {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-right: 10%;
+}
+
+.form-stack {
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.login-button {
+    min-height: 40px;
+}
+
+.forget-password {
+    margin-left: 10%;
+}
+
+.welcome-box {
+    margin-top: 25%;
+    margin-left: 40%;
+    color: rgb(0, 0, 0);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+}
+
+.redirect-button {
+    background-color: white;
+    border: none;
+}
+
+.login-fail {
+    margin-bottom: 6%;
+}

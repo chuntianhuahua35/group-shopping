@@ -1,0 +1,16 @@
+.setting-form {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.setting-title {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+}

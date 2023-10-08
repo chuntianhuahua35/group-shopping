@@ -1,0 +1,36 @@
+.comment-container {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+
+.comment {
+    margin-left: 1%;
+    width: 100%;
+}
+
+.comment-author {
+    color: rgb(171, 171, 171);
+    font-size: small;
+    margin-left: 1%;
+}
+
+.comment-body {
+    font-size: medium;
+    margin-left: 1%;
+    white-space: pre;
+}
+
+.author-time-container {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(171, 171, 171);
+    font-size: small;
+    white-space: nowrap;
+}

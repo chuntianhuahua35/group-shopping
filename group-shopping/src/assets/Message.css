@@ -1,0 +1,18 @@
+.message-cancel-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.cancel-button{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+}
+
+.cancel-button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 0;
+}

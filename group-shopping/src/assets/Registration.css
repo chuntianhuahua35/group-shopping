@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(87, 31, 124);
+    background-size: cover;
+    z-index: 0;
+}
+
+.registration-background {
+    display: flex;
+}

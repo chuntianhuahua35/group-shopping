@@ -1,0 +1,156 @@
+.chat-body-container {
+    box-shadow: rgba(2, 2, 251, 0.2) 0px 7px 29px 0px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    height: 600px;
+    width: 850px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.account-container {
+    background-color: rgb(229, 229, 229);
+    width: 60px;
+}
+
+.account-avatar {
+    margin-top: 80%;
+    margin-left: 15%;
+}
+
+.back-button{
+    padding: 18%;
+    margin-top: 850%;
+}
+
+.group-container {
+    width: 26%;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.group-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.group-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 20px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.group-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px rgb(0, 0, 0);
+}
+
+
+.map-icon-group-name {
+    padding: 5%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border: none;
+}
+
+.map-icon-group-name:hover {
+    padding: 5%;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    border: none;
+}
+
+
+.map-group-name {
+    font-size: 17px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.name-title-container {
+    width: 675px;
+    height: 50px;
+}
+
+.chatTitle-display-text-container {
+    width: 80%;
+    background-color: rgb(244, 244, 244);
+
+}
+
+.chatTitle-container {
+    display: flex;
+    height: 55px;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 3%;
+}
+
+
+.display-container {
+    padding-bottom: 25px;
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.display-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.display-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 20px rgb(244, 244, 244);
+    border-radius: 10px;
+}
+
+.display-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px rgb(0, 0, 0);
+}
+
+.chat-text-container {
+    background-color: rgb(244, 244, 244);
+}
+
+.icon-content {
+    margin-top: 2%;
+    display: flex;
+}
+
+.icon-head {
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+
+.my-icon-content {
+    margin-top: 2%;
+    justify-content: right;
+    display: flex;
+}
+
+.my-icon-head {
+    margin-right: 1%;
+}
+
+.content-talk {
+    margin-left: 1%;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 10px;
+    max-width: 351px;
+    word-wrap: break-word;
+}
+
+.my-content-talk {
+    margin-right: 1%;
+    max-width: 351px;
+    word-wrap: break-word;
+    background-color: rgb(73, 226, 73);
+    padding: 2%;
+    border-radius: 10px;
+}
